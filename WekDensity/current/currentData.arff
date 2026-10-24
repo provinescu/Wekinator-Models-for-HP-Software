@@ -1,0 +1,39 @@
+@relation dataset
+
+@attribute ID numeric
+@attribute Time date 'yyyy/MM/dd HH:mm:ss:SSS'
+@attribute 'Training round' numeric
+@attribute inputs-1 numeric
+@attribute inputs-2 numeric
+@attribute inputs-3 numeric
+@attribute inputs-4 numeric
+@attribute inputs-5 numeric
+@attribute inputs-6 numeric
+@attribute inputs-7 numeric
+@attribute inputs-8 numeric
+@attribute inputs-9 numeric
+@attribute inputs-10 numeric
+@attribute inputs-11 numeric
+@attribute inputs-12 numeric
+@attribute inputs-13 numeric
+@attribute 'FHz Low' numeric
+@attribute 'FHz High' numeric
+@attribute 'Trans FHz' numeric
+@attribute 'DB Low' numeric
+@attribute 'DB High' numeric
+@attribute 'Duree Low' numeric
+@attribute 'Duree High' numeric
+@attribute 'Trans Duree' numeric
+@attribute Stretch numeric
+@attribute Quantization numeric
+@attribute 'Synth X' numeric
+@attribute 'Synth Y' numeric
+@attribute 'Sound X' numeric
+@attribute 'Sound Y' numeric
+@attribute 'FX X' numeric
+@attribute 'FX Y' numeric
+@attribute 'FFT Low' numeric
+@attribute 'FFT High' numeric
+@attribute Preset numeric
+
+@data

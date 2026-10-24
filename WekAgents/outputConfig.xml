@@ -1,0 +1,863 @@
+<?xml version="1.0"?>
+<OSCOutputGroup>
+  <oscMessage>/wek/outputs</oscMessage>
+  <hostName>localhost</hostName>
+  <outputPort>57120</outputPort>
+  <outputs class="linked-list">
+    <wekimini.osc.OSCNumericOutput>
+      <name>Synth</name>
+      <min>0.0</min>
+      <max>256.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Sounds</name>
+      <min>0.0</min>
+      <max>256.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Freq Low</name>
+      <min>0.0</min>
+      <max>127.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Freq High</name>
+      <min>0.0</min>
+      <max>127.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Translate Freq</name>
+      <min>-127.0</min>
+      <max>127.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Amp Low</name>
+      <min>-120.0</min>
+      <max>0.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Amp High</name>
+      <min>-120.0</min>
+      <max>0.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Dur Low</name>
+      <min>0.0</min>
+      <max>60.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Dur High</name>
+      <min>0.0</min>
+      <max>60.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Stretch Dur</name>
+      <min>-16.0</min>
+      <max>60.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Quantization</name>
+      <min>0.0</min>
+      <max>100.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Gene Freq Low</name>
+      <min>0.0</min>
+      <max>127.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Gene Freq High</name>
+      <min>0.0</min>
+      <max>127.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Activate Gene Freq</name>
+      <min>0.0</min>
+      <max>1.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Gene Translate Freq Low</name>
+      <min>-127.0</min>
+      <max>127.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Gene Translate Freq High</name>
+      <min>-127.0</min>
+      <max>127.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Activate Gene Translate Freq</name>
+      <min>0.0</min>
+      <max>1.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Gene Amp Low</name>
+      <min>-120.0</min>
+      <max>0.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Gene Amp High</name>
+      <min>-120.0</min>
+      <max>0.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Activate Gene Amp</name>
+      <min>0.0</min>
+      <max>1.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Gene Dur Low</name>
+      <min>0.0</min>
+      <max>60.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Gene Dur High</name>
+      <min>0.0</min>
+      <max>60.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Activate Gene Dur</name>
+      <min>0.0</min>
+      <max>1.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Gene Stretch Dur Low</name>
+      <min>-16.0</min>
+      <max>60.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Gene Stretch Dur High</name>
+      <min>-16.0</min>
+      <max>60.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Atcivate Gene Stretch Dur</name>
+      <min>0.0</min>
+      <max>1.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Gene Pan Low</name>
+      <min>-1.0</min>
+      <max>1.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Gene Pan High</name>
+      <min>-1.0</min>
+      <max>1.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Activate Gene Pan</name>
+      <min>0.0</min>
+      <max>1.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Gene Time Buffer Low</name>
+      <min>0.0</min>
+      <max>4.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Gene Time Buffer High</name>
+      <min>0.0</min>
+      <max>1.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Activate Gene Time Buffer</name>
+      <min>0.0</min>
+      <max>1.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Gene Sounds Low</name>
+      <min>0.0</min>
+      <max>256.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Gene Sounds High</name>
+      <min>0.0</min>
+      <max>256.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Activate Gene Sounds</name>
+      <min>0.0</min>
+      <max>1.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Gene Reverse Sample Low</name>
+      <min>-1.0</min>
+      <max>1.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Gene Reverse Sample High</name>
+      <min>-1.0</min>
+      <max>1.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Activate Gene Reverse Sample</name>
+      <min>0.0</min>
+      <max>1.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Gene Loop Sample Low</name>
+      <min>-1.0</min>
+      <max>1.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Gene Loop Sample High</name>
+      <min>-1.0</min>
+      <max>1.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Activate Gene Loop Sample</name>
+      <min>0.0</min>
+      <max>1.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Gene Offset Sample Low</name>
+      <min>0.0</min>
+      <max>1.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Gene Offset Sample High</name>
+      <min>0.0</min>
+      <max>1.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Activate Gene Offset Sample</name>
+      <min>0.0</min>
+      <max>1.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Gene Level Envelope Low</name>
+      <min>0.0</min>
+      <max>1.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Gene Level Envelope High</name>
+      <min>0.0</min>
+      <max>1.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Activate Gene Level Envelope</name>
+      <min>0.0</min>
+      <max>1.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Gene Dur Envelope Low</name>
+      <min>0.0</min>
+      <max>1.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Gene Dur Envelope High</name>
+      <min>0.0</min>
+      <max>1.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Activate Gene Dur Envelope</name>
+      <min>0.0</min>
+      <max>1.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Gene Synth Low</name>
+      <min>0.0</min>
+      <max>256.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Gene Synth High</name>
+      <min>0.0</min>
+      <max>256.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Activate Gene Synth</name>
+      <min>0.0</min>
+      <max>1.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Gene Ctrl Synth Low</name>
+      <min>0.0</min>
+      <max>1.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Gene Ctrl Synth High</name>
+      <min>0.0</min>
+      <max>1.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Activate Gene Ctrl Synth</name>
+      <min>0.0</min>
+      <max>1.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Gene Audio Out Low</name>
+      <min>0.0</min>
+      <max>32.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Gene Audio Out High</name>
+      <min>0.0</min>
+      <max>32.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Activate Gene Audio Out</name>
+      <min>0.0</min>
+      <max>1.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Gene MIDI Low</name>
+      <min>0.0</min>
+      <max>16.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Gene MIDI High</name>
+      <min>0.0</min>
+      <max>16.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Activate Gene MIDI</name>
+      <min>0.0</min>
+      <max>1.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Gene Audio In Low</name>
+      <min>0.0</min>
+      <max>32.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Gene Audio In High</name>
+      <min>0.0</min>
+      <max>32.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Activate Gene Audio In</name>
+      <min>0.0</min>
+      <max>1.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Gene Loop Buffer Music High</name>
+      <min>-1.0</min>
+      <max>1.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Gene Loop Buffer Music Low</name>
+      <min>-1.0</min>
+      <max>1.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Activate Gene Loop Buffer Music</name>
+      <min>0.0</min>
+      <max>1.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Gene Buffer Music Low</name>
+      <min>0.0</min>
+      <max>256.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Gene Buffer Music High</name>
+      <min>0.0</min>
+      <max>256.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Activate Gene Buffer Music</name>
+      <min>0.0</min>
+      <max>1.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Gene Max Chord Low</name>
+      <min>0.0</min>
+      <max>12.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Gene Max Chord High</name>
+      <min>0.0</min>
+      <max>12.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Activate Gene Max Chord</name>
+      <min>0.0</min>
+      <max>1.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Gene Dur Chord Low</name>
+      <min>0.0</min>
+      <max>1.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Gene Dur Chord High</name>
+      <min>0.0</min>
+      <max>1.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Activate Gene Dur Chord</name>
+      <min>0.0</min>
+      <max>1.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Gene Algorithm Low</name>
+      <min>0.0</min>
+      <max>5.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Gene Algorithm High</name>
+      <min>0.0</min>
+      <max>5.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Activate Gene Algorithm</name>
+      <min>0.0</min>
+      <max>1.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Gene Band 0</name>
+      <min>0.0</min>
+      <max>1.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Gene Band 1</name>
+      <min>0.0</min>
+      <max>1.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Gene Band 2</name>
+      <min>0.0</min>
+      <max>1.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Gene Band 3</name>
+      <min>0.0</min>
+      <max>1.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Gene Band 4</name>
+      <min>0.0</min>
+      <max>1.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Gene Band 5</name>
+      <min>0.0</min>
+      <max>1.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Gene Band 6</name>
+      <min>0.0</min>
+      <max>1.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Gene Band 7</name>
+      <min>0.0</min>
+      <max>1.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Gene Band 8</name>
+      <min>0.0</min>
+      <max>1.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Gene Band 9</name>
+      <min>0.0</min>
+      <max>1.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Gene Band 10</name>
+      <min>0.0</min>
+      <max>1.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Gene Band 11</name>
+      <min>0.0</min>
+      <max>1.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Gene Band 12</name>
+      <min>0.0</min>
+      <max>1.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Activate Gene Band</name>
+      <min>0.0</min>
+      <max>1.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Preset</name>
+      <min>0.0</min>
+      <max>1.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+  </outputs>
+</OSCOutputGroup>

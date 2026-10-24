@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+<OSCOutputGroup>
+  <oscMessage>/wek/outputs</oscMessage>
+  <hostName>localhost</hostName>
+  <outputPort>57120</outputPort>
+  <outputs class="linked-list">
+    <wekimini.osc.OSCNumericOutput>
+      <name>Pan Low</name>
+      <min>-1.0</min>
+      <max>1.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Pan High</name>
+      <min>-1.0</min>
+      <max>1.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Freq Low</name>
+      <min>0.0</min>
+      <max>127.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Freq High</name>
+      <min>0.0</min>
+      <max>127.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Translate Freq</name>
+      <min>-127.0</min>
+      <max>127.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Amp Low</name>
+      <min>-120.0</min>
+      <max>0.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Amp High</name>
+      <min>-120.0</min>
+      <max>0.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Dur Low</name>
+      <min>0.0</min>
+      <max>60.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Dur High</name>
+      <min>0.0</min>
+      <max>60.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Stretch Dur</name>
+      <min>-100.0</min>
+      <max>100.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Quantization</name>
+      <min>0.0</min>
+      <max>100.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Root</name>
+      <min>-21.0</min>
+      <max>21.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+    <wekimini.osc.OSCNumericOutput>
+      <name>Preset</name>
+      <min>0.0</min>
+      <max>40.0</max>
+      <outputType>REAL</outputType>
+      <limitType>SOFT</limitType>
+      <trainingDataLimitRestriction>DONT_ENFORCE_LIMITS</trainingDataLimitRestriction>
+      <trainingDataIntegerRestriction>DONT_ENFORCE_INTEGER</trainingDataIntegerRestriction>
+    </wekimini.osc.OSCNumericOutput>
+  </outputs>
+</OSCOutputGroup>

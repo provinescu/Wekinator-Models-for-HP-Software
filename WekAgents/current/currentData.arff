@@ -1,0 +1,115 @@
+@relation dataset
+
+@attribute ID numeric
+@attribute Time date 'yyyy/MM/dd HH:mm:ss:SSS'
+@attribute 'Training round' numeric
+@attribute inputs-1 numeric
+@attribute inputs-2 numeric
+@attribute inputs-3 numeric
+@attribute inputs-4 numeric
+@attribute inputs-5 numeric
+@attribute inputs-6 numeric
+@attribute inputs-7 numeric
+@attribute inputs-8 numeric
+@attribute inputs-9 numeric
+@attribute inputs-10 numeric
+@attribute inputs-11 numeric
+@attribute inputs-12 numeric
+@attribute inputs-13 numeric
+@attribute Synth numeric
+@attribute Sounds numeric
+@attribute 'Freq Low' numeric
+@attribute 'Freq High' numeric
+@attribute 'Translate Freq' numeric
+@attribute 'Amp Low' numeric
+@attribute 'Amp High' numeric
+@attribute 'Dur Low' numeric
+@attribute 'Dur High' numeric
+@attribute 'Stretch Dur' numeric
+@attribute Quantization numeric
+@attribute 'Gene Freq Low' numeric
+@attribute 'Gene Freq High' numeric
+@attribute 'Activate Gene Freq' numeric
+@attribute 'Gene Translate Freq Low' numeric
+@attribute 'Gene Translate Freq High' numeric
+@attribute 'Activate Gene Translate Freq' numeric
+@attribute 'Gene Amp Low' numeric
+@attribute 'Gene Amp High' numeric
+@attribute 'Activate Gene Amp' numeric
+@attribute 'Gene Dur Low' numeric
+@attribute 'Gene Dur High' numeric
+@attribute 'Activate Gene Dur' numeric
+@attribute 'Gene Stretch Dur Low' numeric
+@attribute 'Gene Stretch Dur High' numeric
+@attribute 'Atcivate Gene Stretch Dur' numeric
+@attribute 'Gene Pan Low' numeric
+@attribute 'Gene Pan High' numeric
+@attribute 'Activate Gene Pan' numeric
+@attribute 'Gene Time Buffer Low' numeric
+@attribute 'Gene Time Buffer High' numeric
+@attribute 'Activate Gene Time Buffer' numeric
+@attribute 'Gene Sounds Low' numeric
+@attribute 'Gene Sounds High' numeric
+@attribute 'Activate Gene Sounds' numeric
+@attribute 'Gene Reverse Sample Low' numeric
+@attribute 'Gene Reverse Sample High' numeric
+@attribute 'Activate Gene Reverse Sample' numeric
+@attribute 'Gene Loop Sample Low' numeric
+@attribute 'Gene Loop Sample High' numeric
+@attribute 'Activate Gene Loop Sample' numeric
+@attribute 'Gene Offset Sample Low' numeric
+@attribute 'Gene Offset Sample High' numeric
+@attribute 'Activate Gene Offset Sample' numeric
+@attribute 'Gene Level Envelope Low' numeric
+@attribute 'Gene Level Envelope High' numeric
+@attribute 'Activate Gene Level Envelope' numeric
+@attribute 'Gene Dur Envelope Low' numeric
+@attribute 'Gene Dur Envelope High' numeric
+@attribute 'Activate Gene Dur Envelope' numeric
+@attribute 'Gene Synth Low' numeric
+@attribute 'Gene Synth High' numeric
+@attribute 'Activate Gene Synth' numeric
+@attribute 'Gene Ctrl Synth Low' numeric
+@attribute 'Gene Ctrl Synth High' numeric
+@attribute 'Activate Gene Ctrl Synth' numeric
+@attribute 'Gene Audio Out Low' numeric
+@attribute 'Gene Audio Out High' numeric
+@attribute 'Activate Gene Audio Out' numeric
+@attribute 'Gene MIDI Low' numeric
+@attribute 'Gene MIDI High' numeric
+@attribute 'Activate Gene MIDI' numeric
+@attribute 'Gene Audio In Low' numeric
+@attribute 'Gene Audio In High' numeric
+@attribute 'Activate Gene Audio In' numeric
+@attribute 'Gene Loop Buffer Music High' numeric
+@attribute 'Gene Loop Buffer Music Low' numeric
+@attribute 'Activate Gene Loop Buffer Music' numeric
+@attribute 'Gene Buffer Music Low' numeric
+@attribute 'Gene Buffer Music High' numeric
+@attribute 'Activate Gene Buffer Music' numeric
+@attribute 'Gene Max Chord Low' numeric
+@attribute 'Gene Max Chord High' numeric
+@attribute 'Activate Gene Max Chord' numeric
+@attribute 'Gene Dur Chord Low' numeric
+@attribute 'Gene Dur Chord High' numeric
+@attribute 'Activate Gene Dur Chord' numeric
+@attribute 'Gene Algorithm Low' numeric
+@attribute 'Gene Algorithm High' numeric
+@attribute 'Activate Gene Algorithm' numeric
+@attribute 'Gene Band 0' numeric
+@attribute 'Gene Band 1' numeric
+@attribute 'Gene Band 2' numeric
+@attribute 'Gene Band 3' numeric
+@attribute 'Gene Band 4' numeric
+@attribute 'Gene Band 5' numeric
+@attribute 'Gene Band 6' numeric
+@attribute 'Gene Band 7' numeric
+@attribute 'Gene Band 8' numeric
+@attribute 'Gene Band 9' numeric
+@attribute 'Gene Band 10' numeric
+@attribute 'Gene Band 11' numeric
+@attribute 'Gene Band 12' numeric
+@attribute 'Activate Gene Band' numeric
+@attribute Preset numeric
+
+@data

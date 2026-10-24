@@ -1,0 +1,23 @@
+@relation dataset
+
+@attribute ID numeric
+@attribute Time date 'yyyy/MM/dd HH:mm:ss:SSS'
+@attribute 'Training round' numeric
+@attribute inputs-1 numeric
+@attribute inputs-2 numeric
+@attribute inputs-3 numeric
+@attribute inputs-4 numeric
+@attribute inputs-5 numeric
+@attribute inputs-6 numeric
+@attribute inputs-7 numeric
+@attribute inputs-8 numeric
+@attribute fft-1 numeric
+@attribute fft-2 numeric
+@attribute fft-3 numeric
+@attribute fft-4 numeric
+@attribute fft-5 numeric
+@attribute fft-6 numeric
+@attribute fft-7 numeric
+@attribute fft-8 numeric
+
+@data

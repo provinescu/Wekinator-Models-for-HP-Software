@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<OSCOutputGroup>
+  <oscMessage>/wek/gesture</oscMessage>
+  <hostName>localhost</hostName>
+  <outputPort>57120</outputPort>
+  <outputs class="linked-list">
+    <wekimini.osc.OSCDtwOutput>
+      <name>gesture-1</name>
+      <numGestures>5</numGestures>
+      <gestureNames>
+        <string>gesture-1_1</string>
+        <string>gesture-1_2</string>
+        <string>gesture-1_3</string>
+        <string>gesture-1_4</string>
+        <string>gesture-1_5</string>
+      </gestureNames>
+      <gestureOscMessages>
+        <string>/gesture-1_1</string>
+        <string>/gesture-1_2</string>
+        <string>/gesture-1_3</string>
+        <string>/gesture-1_4</string>
+        <string>/gesture-1_5</string>
+      </gestureOscMessages>
+      <outputOscMessage>gesture-1</outputOscMessage>
+    </wekimini.osc.OSCDtwOutput>
+  </outputs>
+</OSCOutputGroup>
