@@ -1,4 +1,4 @@
-# Wekinator Models for Provinescu Software
+# Wekinator Models for HP Software
 
 Wekinator Models
 
