@@ -10,4 +10,5 @@ Standalone:
 Classes:
 [Software Classes ](https://github.com/provinescu/Software-Class)
 
+Wekinator: https://github.com/fiebrink1/wekinator
 
